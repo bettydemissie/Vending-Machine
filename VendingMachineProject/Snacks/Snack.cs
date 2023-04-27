@@ -77,7 +77,7 @@ namespace VendingMachineProject
         public void changeSnackPrice(Snack snacks)
         {
 
-            Console.WriteLine("");
+            Console.WriteLine();
 
             double newSnackPrice = double.Parse(Console.ReadLine());
             snacks.setSnackPrice(newSnackPrice);
